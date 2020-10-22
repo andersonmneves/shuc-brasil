@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <title>Blank Template for Bootstrap</title>
+        <!-- Bootstrap core CSS -->
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <!-- Custom styles for this template -->
+        <link href="style.css" rel="stylesheet">
+        <script>
+    $(document).ready(function() {
+      $('.link-gallery').click(function() {
+        var descripcion = $(this).attr('title');
+        $('#caption').html(descripcion);
+        var img = $(this).find('img');
+        var src = img.attr('src')
+        $('#img01').attr('src', src);
+        $('#myModal').css('display', 'block');
+        $('.modal-backdrop').remove();
+      });
+      $('.close').click(function() {
+        $('#myModal').css('display', 'none');
+      });
+    });
+  </script>
+    </head>
+    <body>
+        <!-- Bootstrap core JavaScript
+    ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <div class="">
+            <div class="container-fluid">
+                <div class="row" style="background-image: url('img/Banner.png'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+                    <div class="col-md-3">
+                        <a href="index.html"> <img class="w-100 img-thumbnail" src="img/shuc.jpg" alt="" style="border: none;"> </a>
+                    </div>
+                    <address class="col-12 col-md-5 text-sm-center text-md-right ml-auto text-left"> <strong>Shuc Brasil Sociedade Humanitaria Cristã</strong><br>Av. Inocêncio Seráfico, N° 3329 - Vila Silva Ribeiro - Carapicuíba-SP.<br> E-mail: shucbrasil@hotmail.com<br> <p>Telelefone: (11) 4187 2672<br>Whatsapp: (11) 9 6507-0937</p> </address>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-light navbar-expand-md navigation-clean" style="background-color: #5ed164; width: 100%; z-index: 1;" id="navegacao">
+            <div class="container-fluid">
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1" aria-expanded="true">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse justify-content-start collapse" id="navcol-1" style="position">
+                    <div class="dropdown">
+</div>
+                    <ul class="nav navbar-nav ml">
+                        <li class="nav-item" role="presentation">
+</li>
+                        <li class="nav-item" role="presentation">
+</li>
+                        <li class="nav-item" role="presentation">
+</li>
+                        <li class="dropdown nav-item">
+                            <a class="nav-link" data-toggle="dropdown" aria-expanded="false" href="#" style="color: #ffffff; padding-left: 0%;">Instituição</a>
+                            <div class="dropdown-menu" role="menu">
+                                <a class="dropdown-item" role="presentation" href="equipe.html" target="_self">Equipe</a>
+                                <a class="dropdown-item" role="presentation" href="quemsomos.html" target="_self">Galeria</a>
+                            </div>
+                        </li>
+                        <a class="nav-link" style="color: #ffffff; padding-left: 0%;" href="cadastro.html" target="_self">Cadastre-se</a>
+                        <a class="nav-link" style="color: #ffffff; padding-left: 0%;" href="tratamentos.html" target="_self">Tratamentos</a>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div id="gallery">
+            <section>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 col-sm-12 co-xs-12 gal-item">
+                            <div class="box">
+                                <a class="link-gallery"> <img class="img-gallery modal-img" src="img/19467940_1435297136537851_3125166876706106419_o.jpg"> </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
+                            <div class="box">
+                                <a class="link-gallery"> <img class="img-gallery" src="img/15698306_1230131017054465_3064652516907974512_n.jpg"> </a>
+                            </div>
+                        </div>
+                        <!--</div>-->
+                        <!--<div class="row">-->
+                        <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
+                            <div class="box">
+                                <a class="link-gallery"> <img class="img-gallery" src="img/18056120_1361805903886975_4485315317623576202_o.jpg"> </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
+                            <div class="box">
+                                <a class="link-gallery"> <img class="img-gallery" src="img/37718523_1863243940409833_5363193295365210112_n.jpg"> </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
+                            <div class="box">
+                                <a class="link-gallery"> <img class="img-gallery" src="img/19577374_1435297143204517_4172230711035708309_o.jpg"> </a>
+                            </div>
+                        </div>
+                        <!--</div>
+                <div class="row">-->
+                        <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
+                            <div class="box">
+                                <a class="link-gallery"> <img class="img-gallery" src="img/17966197_1361805840553648_7551624432807518352_o.jpg"> </a>
+                            </div>
+                        </div>
+                        <div class="col-md-8 col-sm-12 co-xs-12 gal-item">
+                            <div class="box">
+                                <a class="link-gallery"> <img class="img-gallery" src="img/33662846_1781256755275219_9141569535684378624_o (1).jpg"> </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Modal -->
+            <div id="myModal" class="modal">
+                <!-- Boton para cerrar el modal -->
+                <span class="close">×</span>
+                <!-- Imagen a mostrar -->
+                <span class="zoom" id="img-zoom" style="position: relative; overflow: hidden;"> <img class="modal-content" id="img01"> </span>
+                <!-- Descripcion de la imagen -->
+            </div>
+        </div>
+        <ul class="pagination pagination-lg justify-content-center" style="z-index: -1;">
+            <li>
+                <a class="page-link" target="_self" href="quemsomos.html">1</a>
+            </li>
+            <li class="page-item active">
+                <a class="page-link" target="_self" href="quemsomos.html" style="z-index: -1;">2</a>
+            </li>
+        </ul>
+        <ul class="pagination pagination-lg justify-content-center" style="z-index: -1;">
+</ul>
+        <footer class="footer_area" style="z-index: -1;">
+            <div class="ftr_btm_area col-md-12">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="text-center col-sm-3">
+                            <div class="ftr_social_icon">
+                                <ul>
+                                    <li>
+                                        <a href="https://www.facebook.com/shucbrasiloficial/"><i class="fa fa-facebook"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fa fa-google"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.youtube.com/channel/UCNWYnSd79OgDY34UiP7hytQ"><i class="fa fa-youtube"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fa fa-instagram"></i></a>
+                                    </li>
+                                    <li>
+</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6">
+                        <div class="single_ftr">
+                            <h4 class="sf_title">Contato</h4>
+                            <ul>
+                                <li>Av. Inocêncio Seráfico, N° 3329 
+                                    <br>Vila Silva Ribeiro - Carapicuíba-SP. 
+                                </li>
+                                <li>E-mail: shucbrasil@hotmail.com</li>
+                                <li>Telelefone: (11) 4187 2672</li>
+                                <li>Whatsapp: (11) 9 6507-0937</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--  End Col -->
+                    <div class="col-md-5 col-sm-6">
+                        <div class="single_ftr">
+                            <h4 class="sf_title">Informações</h4>
+                            <ul>
+                                <li>
+                                    <a href="regulamentointerno.html" target="_self">Regulamento interno</a>
+                                </li>
+                                <li>
+                                    <a href="regulamentofamiliares.html">Regulamento do dia de visita para familiares</a>
+                                </li>
+                                <li>
+                                    <a href="enxoval.html" target="_self">Enxoval básico</a>
+                                </li>
+                                <li>
+                                    <a href="cronograma.html">Cronograma</a>
+                                </li>
+                                <li>
+</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--  End Col -->
+                    <div class="col-md-4 col-sm-6">
+                        <iframe width="100%" height="200" src="https://maps.google.com/maps?q=shuc%20brasil%20Vila%20Silva %20Ribeiro&amp;z=14&amp;output=embed" scrolling="no" frameborder="0"></iframe>
+                    </div>
+                    <!--  End Col -->
+                    <!--<div class="col-md-3 col-sm-6">
+                        <div class="single_ftr">
+                            <h4 class="sf_title">Newsletter</h4>
+                            <div class="newsletter_form">
+                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have </p>
+                                <form method="post" class="form-inline">
+                                    <input name="EMAIL" id="email" placeholder="Enter Your Email" class="form-control" type="email">
+                                    <button type="submit" class="btn btn-default">
+                                        <i class="fa fa-search"></i>
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <!--  End Col -->
+                </div>
+            </div>
+        </footer>
+        <a href="https://wa.me/5511965070937?text=Shuc Brasil Sociedade Humanitaria Cristã" style="position:fixed;width:60px;height:60px;bottom:40px;right:40px;background-color:#25d366;color:#FFF;border-radius:50px;text-align:center;font-size:30px;box-shadow: 1px 1px 2px #888;
+  z-index:1000;" target="_blank"> <i class="fa fa-whatsapp fa2" style="margin-right: 30px; margin-top: -5px; margin-left: -2px;"></i></a>
+        <script src="js.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script> -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <script>
+    $(document).ready(function() {
+      $('.link-gallery').click(function() {
+        var descripcion = $(this).attr('title');
+        $('#caption').html(descripcion);
+        var img = $(this).find('img');
+        var src = img.attr('src')
+        $('#img01').attr('src', src);
+        $('#myModal').css('display', 'block');
+        $('.modal-backdrop').remove();
+      });
+      $('.close').click(function() {
+        $('#myModal').css('display', 'none');
+      });
+    });
+  </script>
+    </body>
+</html>
